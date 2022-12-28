@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Calculator from './calculator/calculator';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      Hello World
+      Calculator
+      <Calculator/>
     </div>
   );
 }
